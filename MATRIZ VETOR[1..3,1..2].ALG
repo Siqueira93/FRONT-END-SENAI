@@ -1,8 +1,11 @@
 Algoritmo "Matriz vetor[1..3,1..2]"
-
-
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 06/03/2024
 Var
-// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
+// Seção de Declarações das variáveis 
 m : vetor[1..3,1..2] de inteiro
 //variavel matriz
 l,c: inteiro
