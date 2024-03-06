@@ -1,18 +1,15 @@
 Algoritmo "VETORES [1..3]"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 06/03/2024
+
+
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 alunos : vetor[1..2] de caractere
 //DOIS ALUNOS
 notasAval1 : vetor[1..2] de real
 notasAval2 : vetor[1..2] de real
 notasAval3 : vetor[1..2] de real
 //3 NOTAS RECEBIDAS DE 2 ALUNOS
-//vetores você informar a maquina em quantos procurar em linguagem de programação
+//vetores vocÃª informar a maquina em quantos procurar em linguagem de programaÃ§Ã£o
 // chamamos de array   (""""ARRAY)
 contador : inteiro
 mediaFinal: real
@@ -21,7 +18,7 @@ escreval("=====ESCOLA MILENIO=====")
 escreval("")
   para contador <- 1 ate 2 faca
   //pois temos dois alunos
-   escreval("Nome do 1º aluno:")
+   escreval("Nome do 1Âº aluno:")
    leia(alunos[contador])
    limpaTela()
    escreval("=====ESCOLA MILENIO=====")
