@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução CSS</title>
+    <!--Definindo que o estilo de todos os paragrafos são cinza <style>
+    p{
+        definindo a cor 
+        color
+    }     
+    -->
+    
+    <style>
+        body {
+            background-color: rgb(206, 205, 205);
+            
+        }
+        h1 {
+            background-color: white;
+            
+        }
+    /* elemento = seletor por tag */
+        p {
+            color: black;  
+         }
+    /* #elemento = por seletor */  
+    /* a prioridade no navegador: tag, classe, id */
+        #pVermelho {
+            background-color: rgb(187, 184, 184);
+        }
+    /* .elemento = seletor via classe (agrupamento) */
+        .mudafonte {
+            font-size: 10pt;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        /* Como arrendondar a imagem "border-radius" 
+            Para colocar uma margem "margin"
+        */
+        img {
+            border-radius: 15%;
+            margin: 50px; 
+            width: 70%;
+            height: 60%;
+            opacity: 0.1;
+        }
+        
+         
+
+    </style>
+</head>
+<body>
+    <h1>AULA SOBRE CSS</h1>
+    <div></div>
+    <!--O paragrafo aqui puxou o class="mudafonte" que é referente a mudança estabelecida em style-->
+    <p class="mudafonte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem pariatur amet ipsa animi eum, esse quisquam itaque explicabo iste! Quis vero ratione voluptatem molestiae recusandae explicabo tenetur saepe eveniet distinctio!</p>
+    <!-- Lembrando que para acessar pasta atras (" ../arquivo  ")-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur asperiores in vero dolorem recusandae ad ipsam cupiditate, aperiam possimus necessitatibus alias dolorum, nihil perspiciatis consequatur doloribus libero rem veniam laborum!</p>
+    
+    <!-- #idname - definir clase unica -->
+    <p id="pVermelho">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ullam labore iste quasi pariatur fugit omnis nam non dolorem, debitis ipsa incidunt quas dignissimos nisi! Officiis temporibus ducimus amet explicabo.</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis minus recusandae ratione iusto cupiditate ducimus. Numquam eum, ad aspernatur recusandae fugiat soluta corporis cum laborum blanditiis iste nostrum sit quam?</p>
+    <img width="100px" src="oculos.jpg" alt="Mulher com Oculos">
+    
+
+</body>
+
+</html>
