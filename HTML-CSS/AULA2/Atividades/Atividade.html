@@ -17,69 +17,23 @@
     e crie 1 id
     - Titulo :  Coloque a cor de sua preferencia e tamanho de 50px
     -->
-<style>
-    body{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        margin: 30px;
-        border-bottom-left-radius: 500%;
-        border-color: black;
-        background-color: antiquewhite;
-    }
-    h1{
-        background-image: url("imagemdefundoacademia.jpg");
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-style: inherit;
-        color: rgb(104, 59, 24);
-        font-style: oblique;
-        font-size: 100px;
-        font-weight: 50px;
-        text-align: center;
-    }
-    h2{
-        text-align: left;
-    }
-    p{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 18px;
-        font-weight: 100px;   
-    }
-    #alongamento{
-        float: auto;
-        margin: 10%
-    }
-    #bike {
-        size-adjust: 30px;
-        float: left;
-        margin: 20%
-    }
-    div {   
-        width: 25%;
-        height: 50%;
-        background-color: rgb(176, 185, 147);
-        padding: 10px;
-        font-size: large;
-        float: center;
-    }
-    #TituloAquecimento {
-        text-align: center;
-    }
-    #ImagemAquecimento {
-        float: right;
-    }
-    #adesivo1academia{
-        float: inline-end;
-    }
-    
-</style>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="pages/Sobre.html">
 </head>
 <body>
-    <h1><strong>MUSCULATURA</strong></h1>
+    <h1>MUSCULATURA</h1>
     <br>
-    <h2>Sobre o site:</h2>
+    <div id="Menu">
+        <button class="button button1"><a href="pages/Sobre.html">Sobre</a></button>
+        <button class="button button2">Bicicleta</button>
+        <button class="button button3">Produtos</button>
+        <button class="button button4">Nosso parceiros</button>  
+    </div>
+
     
     <p>Este site é destinado a orientar aqueles que ainda não estão comprometidos e/ou precisam encontrar soluções para pequenas ocasiões do dia-a-dia:</p>
     <div>
-    <ul>
+    <ul id="Tabeladeentrada">
         <strong>
         <li>AQUECIMENTO</li><br>
         <li>EXERCICIO DA SUA PREFERÊNCIA</li><br>
@@ -88,17 +42,16 @@
     </ul>
     </div>
     <br>
-    <h2 id="TituloAquecimento">Aquecimento</h2>
-    <img id="ImagemAquecimento" width="400" id="alongamento" src="alongamento.gif" alt="alongamentos">
-    <p >O aquecimento deve ser feito antes de iniciar qualquer prática esportiva ou atividade física. O principal objetivo do aquecimento é preparar o corpo para o esforço exigido pelos exercícios e preparar o aumento da temperatura corporal. Isso melhora a eficiência muscular, lubrifica as articulações e ajuda a evitar lesões futuras. 
+    <h2 id="Titulo2">Aquecimento</h2>
+        <img id="imagem1" width="400" src="images/alongamento.gif" alt="alongamentos">
+    <p>O aquecimento deve ser feito antes de iniciar qualquer prática esportiva ou atividade física. O principal objetivo do aquecimento é preparar o corpo para o esforço exigido pelos exercícios e preparar o aumento da temperatura corporal. Isso melhora a eficiência muscular, lubrifica as articulações e ajuda a evitar lesões futuras. 
     <p>Além disso, ele eleva a frequência cardíaca, a respiração e a pressão arterial. E também provoca uma vasodilatação que vai levar mais oxigênio para os músculos e promover um metabolismo aeróbico.</p><br>
-
     <p><strong>Aquecimento ou alongamento?</strong>
     <p>Para elevar a temperatura corporal e preparar o corpo, devemos fazer o aquecimento de 3 a 20 minutos, antes e após a atividade física. Isso dependerá do tipo de exercícios físicos ou da modalidade esportiva escolhida. Muitas pessoas confundem aquecimento e alongamento, mas os dois têm diferenças. O aquecimento é a prática, em menor intensidade, de exercícios físicos semelhantes ao que serão feitos durante o treino.</p>    
     <p>Já o alongamento promove flexibilidade e relaxa os músculos, mas não necessariamente vai aumentar a sua frequência cardíaca. Em pré-treinos, especialmente de força, o alongamento deve ser realizado sob supervisão de um educador físico. Afinal, se feitos de maneira inadequada, podem causar distensão muscular. Recomenda-se fazer uma sessão de aquecimento muscular antes do alongamento, para evitar possíveis lesões.</p><br><br>
     
-    <h2 id="TituloAquecimento">Exercico de preferencia:</h2>
-    <img id="ImagemAquecimento" width=400px src="bike.jpg" alt="bicicleta">
+    <h2 id="Titulo2">Exercico de preferencia:</h2>
+        <img id="imagem2" width="350" src="images/bike.jpg" alt="bicicleta">
     <p>Meu exercício de prático do meu dia a dia é a : <strong>Bicicleta</strong></p>
     <p>O exercício de bicicleta tem muitos benefícios para a saúde:</p>
     <strong>Cardiovascular</strong>
@@ -109,13 +62,10 @@
     <p>Fortalece os membros inferiores e superiores, melhora o tônus muscular e auxilia na recuperação de lesões ósseas</p>
     <strong>Outros</strong>
     <p>Controla a pressão arterial, diminui o colesterol ruim (LDL), melhora o condicionamento cardiorrespiratório e auxilia na prevenção de algumas doenças, como a diabetes do tipo 2 e alterações cardíacas</p>
-    
-
-    <h2 id="TituloAquecimento">Cuidados pessoais</h2>
     <br>
-    <br>
-    <p>Cuide da Sáude!!!</p>
-    <img id="adesivo1academia" width="20%" src="adesivo1academia.jpg" alt="adesivo1academia">
+    <div id="Cuide">
+        <p><strong>Cuide da Sáude!!!</strong></p>
+    </div>
     
 </body>
 </html>
