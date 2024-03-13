@@ -7,16 +7,15 @@
 }
 
 #body{
-    background-color:rgb(77, 40, 177);
-    color: black;
+    background-color:rgb(77, 40, 177);   
 }
 #cabecalho{
     background-color: yellow;
     /*espaçammento de 1 valor = todos lados
       espaçamento de 2 valores = eixo y (cima embaixo) e eixo x (esquerda e direita)
-      espaçamento de 4 valores = cima, direita, embaixo,     
-      Eixos ( X , Y , -X , -Y ) */
+      espaçamento de 4 valores = cima, direita, embaixo, esquerda */  
     padding: 20px;
+    /*Eixos ( X , Y , -X , -Y ) */
     margin: 0px 0px 10px 0px;
 }
 
@@ -24,7 +23,20 @@
     width: 100%;
 }
 #links{
-    background-color:blue;
+    background-color:rgb(92, 92, 238);
+    padding: 20px;
+    border-radius: 10px;
+}
+a{
+    margin: 10px;
+}
+button{
+    padding: 5px;
+    color: rgb(15, 2, 19);
+    border-radius: 30px;
+}
+h3{
+    text-align: center;
 }
 #artigo{
     /* Tamanho da borda do artigo entre a pagina*/
@@ -36,7 +48,6 @@
      /* arrendondar borda do artigo entre a pagina*/
     border-radius: 10px;
      /* Alinhamento do texto do artigo entre a pagina*/
-    text-align: center, justify;
+    text-align: justify;
     margin: 40px auto;
-    image-orientation: 50%;
 }
