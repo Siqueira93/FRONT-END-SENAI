@@ -1,0 +1,42 @@
+/* ( * ) -  */
+*{
+    /* margin -  margem (fora do elemento) */
+    margin: 0%;
+    /* padding -  margem interena (dentro do elemento) */
+    padding: 0%;
+}
+
+#body{
+    background-color:rgb(77, 40, 177);
+    color: black;
+}
+#cabecalho{
+    background-color: yellow;
+    /*espaçammento de 1 valor = todos lados
+      espaçamento de 2 valores = eixo y (cima embaixo) e eixo x (esquerda e direita)
+      espaçamento de 4 valores = cima, direita, embaixo,     
+      Eixos ( X , Y , -X , -Y ) */
+    padding: 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+#banner{
+    width: 100%;
+}
+#links{
+    background-color:blue;
+}
+#artigo{
+    /* Tamanho da borda do artigo entre a pagina*/
+    width: 80%;
+     /* Cor do fundo do artigo entre a pagina*/
+    background-color: brown;
+     /* Tamanho do afastamento da borda do artigo entre a pagina*/
+    padding: 20px;
+     /* arrendondar borda do artigo entre a pagina*/
+    border-radius: 10px;
+     /* Alinhamento do texto do artigo entre a pagina*/
+    text-align: center, justify;
+    margin: 40px auto;
+    image-orientation: 50%;
+}
