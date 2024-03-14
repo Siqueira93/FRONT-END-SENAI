@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cabecalho{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(91, 94, 92);
+    color: white;   
+}
+#links{
+    text-align: center;
+}
+#banner{
+    width: 70%;
+    height: 300px;
+    background-image: url("../images/SSD.jpg");
+    /*Deixa a imagem mais responsiva*/
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+h3{
+    padding: 8px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+#conteudo{
+    width: 100%;
+    /*Quando colocamos o display flex ele mede entre eixo x e y*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#catalago {
+    width: 80%;
+    /*Orientação*/
+    display: flex;
+    /*Direção*/
+    flex-direction: row;
+    /*Alinhamento de conteudo*/ 
+    flex-wrap: wrap;
+    justify-content: center;
+    /*Faz o calculo exato de distribuição das colunas    (space-between)   outro tambem (space-around)*/
+    justify-content:center;
+    gap: 10px;
+    /*Quando adicionamos o auto na orientação da margem ele automaticamente leva ao centro da tela*/
+    margin: 10px auto ;
+}
+.produto{
+    width: 200px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(211, 209, 209);
+    /*Acrescentar uma caixa de sombra/shadow*/
+    box-shadow: 2px 2px rgb(46, 46, 46);
+    gap: 8px;
+}
+.produto img{
+    width: 100%;
+    border-radius: 10%;
+}
