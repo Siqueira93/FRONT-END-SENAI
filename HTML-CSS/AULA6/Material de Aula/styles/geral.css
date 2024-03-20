@@ -1,0 +1,76 @@
+/*PARA ADICIONAR A FONTE*/
+@font-face{
+    font-family: fontOne;
+    src: url(../fonts/c_carrot_farm/cCarrotFarm.ttf);
+
+}
+@keyframes mudarCor{
+    0%{
+       
+    }
+    50%{
+       
+    }
+    100%{
+
+    }
+}
+/*LEMBRE-SE ROOT É PARA ADICIONAR VARIAVEL*/
+:root {
+    --corPrimaria: rgba(7, 7, 7, 0.884) ;
+    --corSecundaria: yellow;
+    --branco: white;
+    --preto: black;
+    --fontePrimaria: fonteOne;
+    --fonteSecundaria: 'Trebuchet'
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--fonteSecundaria);
+}
+#page{
+    width: 100%;
+    /*vh - ja seleciona altura e largura*/
+    height: 100vh;
+    background-color: var(--corPrimaria);
+    /*Lembrando que o FLEXBOX é a hirarquia para manipulação em bloco
+    NUNCA ESQUECER DE COLOCAR O DISPLAY FLEX FDP!!!    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    /*Tamanho da janela do meio*/
+    width: 80%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;   
+}
+#effect, #form {
+    width:  50%;
+    height: 100%;
+    
+}
+#effect{
+    background-image: url(../images/apple-1841553_640.jpg);
+    background-size: cover;
+}
+#banner{
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(267deg, rgba(0,0,0,1) 0%, rgba(3,3,3,1) 0%, rgba(86,86,96,0) 100%, rgba(18,28,77,1) 100%);
+}
+h3{
+    margin: 10px;
+    font-family: fontOne;
+    font-size: 25px;
+    text-align: center;
+}
+#formulario form{
+    display: flex;
+    flex-direction: column;
+}
