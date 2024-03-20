@@ -1,0 +1,12 @@
+
+main{
+    width: 100%;
+    /*vh - ja seleciona altura e largura*/
+    height: 100vh;
+    background-color: var(--corPrimaria);
+    /*Lembrando que o FLEXBOX é a hirarquia para manipulação em bloco
+    NUNCA ESQUECER DE COLOCAR O DISPLAY FLEX FDP!!!    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
