@@ -19,8 +19,6 @@
 :root {
     --corPrimaria: rgba(7, 7, 7, 0.884) ;
     --corSecundaria: yellow;
-    --branco: white;
-    --preto: black;
     --fontePrimaria: fonteOne;
     --fonteSecundaria: 'Trebuchet'
 }
@@ -29,7 +27,7 @@
     padding: 0%;
     font-family: var(--fonteSecundaria);
 }
-#page{
+#page {
     width: 100%;
     /*vh - ja seleciona altura e largura*/
     height: 100vh;
