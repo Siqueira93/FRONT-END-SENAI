@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+:root{
+    --corPrimaria: rgb(65, 65, 177) ;
+    --corSecundaria: rgb(1, 49, 1);
+    --branco: rgb(231, 231, 231);
+    --preto: black;
+    --ativo: rgb(43, 41, 41);
+}
+h1, footer{
+    color: var(--branco);
+    text-align: center;
+}
+
+header, footer{
+    margin: 5px;
+    width: 100%;  /*De uma ponta a outra do site (da esquerda para direita)*/
+    height: 60px;
+    display: flex;
+    justify-content: center; /*Alinha verticalmente*/
+    align-items: center; /*Alinha Horizontalmente*/ 
+    background-color: var(--corPrimaria);
+}
+#TableExcel { /*Estilizando a tabela*/
+    margin: 30px;
+    width: 400px;
+    border-collapse: collapse;
+        
+}
+th, td{  /*Acrescentando bordas na tabela*/
+    border: 1px solid var(--preto);
+    text-align: center;
+    padding: 5px;
+    user-select: none; /*tirar seleção de texto*/
+}
+th{
+    background-color: var(--corPrimaria);
+    color: white;
+}
+td{
+    background-color: var(--branco);
+
+}
+th:hover{ /*SELEÇÃO COM INTERAÇÃO DO MOUSE DO USUARIO - passando o mouse */
+    background-color: var(--corSecundaria);
+}
+td:active{ /*SELEÇÃO COM INTERAÇÃO DO MOUSE DO USUARIO - clicando com o mouse */
+    background-color: var(--ativo);
+    color: var(--corSecundaria);
+    border: solid var(--corSecundaria) 1px;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+ 
+}
+input{
+    margin: 10px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+    background-color: var(--branco);
+    text-align: center;
+
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+#table2{
+    display: flex;
+    justify-content: center;
+}
+
+.divcenter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+input:focus{
+    transition: 1s;
+    background-color: var(--branco);
+    color: var(--branco);
+    border-radius: 3px;
+}
+th:empty{
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+}
+#tableproducts {
+    margin: 30px;
+    width: 400px;
+    border-collapse: collapse;
+}
+table input{
+    width: 200px;
+    height: 30px;
+    padding: 0%;
+    border: none;
+    background-color: transparent;
+    color: black;
+
+}
+main{
+    padding: 30px;
+}
+
+
