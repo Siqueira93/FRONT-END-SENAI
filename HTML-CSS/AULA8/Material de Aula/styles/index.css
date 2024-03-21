@@ -99,16 +99,20 @@ th:empty{
     border-collapse: collapse;
 }
 table input{
-    width: 200px;
-    height: 30px;
+    margin: -10px;
+    width: 210px;
     padding: 0%;
     border: none;
-    background-color: transparent;
+    border-color: transparent;
     color: black;
-
+    cursor: none;
+   
 }
+
 main{
     padding: 30px;
 }
 
-
+#tableproducts td:empty{
+    padding: 0%;
+}
