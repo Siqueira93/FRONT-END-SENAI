@@ -116,3 +116,11 @@ main{
 #tableproducts td:empty{
     padding: 0%;
 }
+footer{
+    position: fixed;
+    position: sticky;
+}
+
+#espaco{
+    margin: 500px;
+}
