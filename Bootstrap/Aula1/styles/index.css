@@ -1,0 +1,14 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-brand {
+    color: rgb(250, 250, 250);
+}
+.btn-group-vertical {
+    align-items: center;
+}
+.navbar>.container,.navbar>.container-fluid,.navbar>.container-lg,.navbar>.container-md,.navbar>.container-sm,.navbar>.container-xl,.navbar>.container-xxl {
+    background-color: gray;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdutório Bootstrap</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+        <!-- navbar header -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <!-- organizar elementos -->
+            <div class="container-fluid">
+                <!-- página principal -->
+              <a class="navbar-brand btn-group-vertical" href="#">
+                  <img src="icons/controller.svg" alt="">
+                  POLYSTATION
+                </a>
+              <!-- botao mobile -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+             
+    </header>
+
+    <main>
+        <h1>HELLO WORLD</h1>
+        <!-- container - div centralizado -->
+        <!-- container-fluid - div centralizada 100% -->
+        <!-- bg-color - background color -->
+        <!-- text-color - color -->
+        <!-- m-valor(1 a 5) - margin (mt, mb, ms, me = lados; mx,my = eixos) -->
+        <!-- p-valor(1 a 5) - padding -->
+            <div class="container-fluid bg-dark m-1 text-white"> 
+                Teste Bootstrap
+            </div>
+
+
+        <!-- CAROUSEL -->
+        <section id="carouselSection">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <!-- indicadores do carousel -->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <!-- conteudo carousel  -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/pexels-jeshootscom-442576.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>POLYSTATION</h5>
+                      <img src="icons/controller.svg" alt="">
+                      <p>Go Go Go!!!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/pexels-pixabay-163036.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>MARIO</h5>
+                      <img src="icons/nintendo-switch.svg" alt="">
+                      <p>Não é aquele de trás do armário</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/pexels-pixabay-275033.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- proximo e anterior -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+   
+    
+<!-- LINK PARA O JAVASCRIPT -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
