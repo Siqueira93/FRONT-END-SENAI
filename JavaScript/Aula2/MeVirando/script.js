@@ -13,7 +13,7 @@ function FaixaEtaria() {
     let res = window.document.getElementById ('resultado');
     console.log(idade)
 
-    var {criança, jovem, adulto, velho} =
+
 
 
 
@@ -27,6 +27,5 @@ function FaixaEtaria() {
         window.alert("Você é Velho");
     }
 
-    res.innerHTML = `Você é uma ${idade}`
       
 }
