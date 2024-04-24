@@ -1,0 +1,32 @@
+Primeiramente precisamos entender a sintaxe, podemos simplificar com o exemplo abaixo:
+
+Copiar
+if (idade > 18){
+	console.log("Você é obrigado a votar");
+}
+No exemplo nós utilizamos a palavra if seguido da condição idade > 18 . 
+Ou seja, caso a variável idade seja maior que 18 (verdadeiro), os comandos que estarão no bloco serão executados, 
+se tratando do exemplo, será executado o comando console.log("Você é obrigado a votar").
+
+___________________________________________________________________________________________________
+
+Porém este exemplo não está completo, afinal, há quem não pode votar e também o voto opcional.
+ Podemos utilizar os operadores lógicos na condição para deixar mais robusto o nosso exemplo:
+
+if (idade > 15 && idade < 18 || idade > 70){
+	console.log("O voto é opcional");
+}
+
+___________________________________________________________________________________________________
+
+Agora nós criamos uma estrutura condicional utilizando if e os operadores lógicos && (E) e ||(OU), 
+mas ainda podemos deixar mais completo o nosso exemplo utilizando a estrutura else if :
+
+if (idade > 15 && idade < 18 || idade > 70) {
+	console.log("O voto é opcional")
+}else if (idade < 16) {
+    console.log("Você não pode votar");
+}
+
+
+___________________________________________________________________________________________________
