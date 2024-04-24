@@ -14,7 +14,7 @@ function ifElse() {
 
     if (idade >= 18) {
         alert("Aproveite o nosso sistema");
-        let resposta = document.querySelector("resposta");
+        let resposta = document.querySelector("#resposta");
         resposta.innerHTML = `<h3> ${idade} </h3>`;        
     }else {
         alert("idade invalida");
