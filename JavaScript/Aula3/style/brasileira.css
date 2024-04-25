@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: yellow;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header {
+    width: 100%;
+    padding:  20px 0px;
+    background-color: rgb(22, 143, 22);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
