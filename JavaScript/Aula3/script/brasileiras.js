@@ -24,9 +24,3 @@ function adicionarValorTotal(valorItem){
     atualizarValorTotal();
 
 }
-
-// function removerValorTotal(valorItem){
-//     valorTotal -= valorItem;
-//     atualizarValorTotal();
-
-// }
