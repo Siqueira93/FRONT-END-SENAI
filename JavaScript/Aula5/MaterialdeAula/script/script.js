@@ -31,10 +31,6 @@ class Cliente {
         
     };
 }
-function depositar(){
-    let valorInput = Number (document.querySelector("#cadastrar"),value);
-    cliente1.depositar = valor
-}
 
 var cliente1 = new Cliente();
 cliente1.nome = "Miqueias";
