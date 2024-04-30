@@ -7,9 +7,8 @@ function atualizarCarrinho() {
     carrinhoHTML.innerHTML = "";
 
     carrinho.forEach((nomeProduto) => {
-        carrinhoHTML.innerHTML += `${nomeProduto}`;
-
-    })
+        carrinhoHTML.innerHTML += `<div class="itemCarrinho"${nomeProduto}</p>`;
+    });
     carrinhoHTML.innerHTML += `${carrinho}`
 
 }
