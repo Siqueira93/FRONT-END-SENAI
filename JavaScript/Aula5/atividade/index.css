@@ -30,10 +30,9 @@ button {
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     width: 100%;
-    gap: 25px;
+    gap: 5px;
     padding: 20px;
 
 }
