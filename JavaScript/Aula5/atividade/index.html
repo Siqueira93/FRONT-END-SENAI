@@ -7,14 +7,30 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="carro" id="infocar">
-        <label for="">Qual a velocidade atual?</label>
-        <input type="number" id="saida">
-
+    <!-- botões -->
+    <button type="button" id="btnEx1" onclick="exercicio1()">
+        Exercicio 1
+    </button>
+    <button type="button" id="btnEx2" onclick="exercicio2()">
+        Exercicio 2
+    </button>
+    <button type="button" id="btnEx3" onclick="exercicio3()">
+        Exercicio 3
+    </button>
+    
+    <!-- respostas -->
+    <div class="resposta" id="respostaEx1">
 
     </div>
+    <div class="resposta" id="respostaEx2">
 
-
+    </div>
+    <div class="resposta" id="respostaEx3">
+        <div id="PopUp">
+            <button type="button" onclick="fecharPopUp()"> X </button>
+            Script Funcionando
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
