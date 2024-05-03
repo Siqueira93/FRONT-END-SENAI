@@ -70,7 +70,12 @@ function acelerar() {
     
     carro1.acelerar(inputAcelerar);
 
+}
 
+function fechar(){
+    let fechar1 = document.querySelector("#respostaEx1");
+
+    fechar1.style.display = "none";
 }
 
 
