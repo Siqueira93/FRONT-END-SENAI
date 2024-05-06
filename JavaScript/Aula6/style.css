@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topico{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(130, 130, 245);
+    margin: 30px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
