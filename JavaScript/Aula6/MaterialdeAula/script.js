@@ -76,12 +76,17 @@ function objectEntries(){
     // imprimi o atributo+valor ("array")
     console.log(aluno.cursosFinalizados);
 
+    // map
+    var teste = ["Matricula","Front End"];
+    // parametro teste.map(elemento) faz o processo para cada elemento do array
+    var mapResultado = teste.map((elemento) => `${elemento}`);
+    console.log(mapResultado);
+
 }
 
-function Promises(){
+// function Promises(){
     
-}
-
+// }
 
 
 //executar functions
