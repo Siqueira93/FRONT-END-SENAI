@@ -1,0 +1,22 @@
+
+
+
+.father{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: cadetblue;
+
+}
+
+#resposta1, #resposta2 {
+    background-color: aqua;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.topico{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    border: none;
+    border: 2px solid purple;
+    transition: 0.5s;
+}
+
+input:focus{
+    padding: 13px;
+    background-color: purple;
+    color: white;
+    transition: 0.5s;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid purple;
+    color: purple;
+    transition: 0.5s;
+}
+
