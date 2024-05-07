@@ -41,7 +41,6 @@ function pesquisar(){
 
 }
 
-
 // o pad() serve para buscar e substuir alguma informação
 function pad(){
     var nome = "Raul";
@@ -57,9 +56,36 @@ function pad(){
 }
 
 
+//aula 7
+function objectEntries(){
+    const aluno = {
+        matricula : 180,
+        cursosFinalizados: ["front end","ux","banco de dados"],//array
+        cursoAtual: "Dominó",
+        nome: "Raul" 
+    }
+
+    // object.keys para procurar detalhadademnte dentro da const aluno
+    // imprimi somente atributos ("matricula, cursoAtual etc")
+    var alunoKey = Object.keys(aluno);
+    console.log(alunoKey);
+    // imprimi todos os atributos+valor da ARRAY
+    var alunoEntries = Object.entries(aluno);
+    console.log(alunoEntries);
+
+    // imprimi o atributo+valor ("array")
+    console.log(aluno.cursosFinalizados);
+
+}
+
+function Promises(){
+    
+}
+
 
 
 //executar functions
 replaceEcma();
 pesquisar();
 pad();
+objectEntries();

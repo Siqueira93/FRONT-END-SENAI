@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correção</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--
+    1) Fazer um input de pesquisa onde irá pesquisar se o nome de um jogo 
+    (em um array de pelomenos 3 elementos) existe, se existir,
+    mande uma mensagem que ele foi encontrado, caso não, mande uma mensagem que não foi encontrado!
+    
+    2) Fazer um site de escrever textos onde possa implementar as funções de replace e replace all 
+    -->
+    <main>
+        <div id="pesquisar" class="topico">
+            <input type="text" placeholder="Insira um jogo para pesquisar" id="inputResposta">
+            <button type="button" id="btnResposta">PESQUISAR</button>
+            <div id="pesquisarResposta"></div>
+        </div>
+    
+        <div id="substituir" class="topico">
+            <textarea id="texto" cols="30" rows="10"></textarea>
+            <input type="text" id="acharTermo" placeholder="O termo para remover">
+            <input type="text" id="trocarTermo" placeholder="O novo termo">
+            <button type="button" id="btnReplace">TROCAR UM TERMO</button> 
+            <button type="button" id="btnReplaceAll">TROCAR TODOS OS TERMOS</button> 
+        </div>
+    </main>
+    
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
