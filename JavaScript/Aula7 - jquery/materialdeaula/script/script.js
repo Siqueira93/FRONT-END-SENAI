@@ -18,6 +18,8 @@ $("#textoPagina").html(texto);
 $("#teste").on("click",function(){
     $("#teste").text("Acertou!");
     $("#teste").addClass("teste");
-    
+    $("#testeImagem").html("<img src='...' alt='Uma imagem'> ");
+    $("h2").text("lorem");
+    // $("#teste").removeClass("teste");
 })
 
