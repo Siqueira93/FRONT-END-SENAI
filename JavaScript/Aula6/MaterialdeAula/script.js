@@ -84,9 +84,29 @@ function objectEntries(){
 
 }
 
-// function Promises(){
-    
-// }
+
+
+// para casos de criar uma promesa a ser cumprida na risca, seja um titulo de filmes, por isso o then 
+function Promises(){
+    // opções de poder ou não cumprir 
+    //           aqui informo quais os padrões que a promise pode ser !!
+    var promesa = new Promise((resolve, reject) => {
+        // definimos que o usuario é ADM
+        let usuario = "rs";
+        // usuario for igual ADM
+        if(usuario == "rs"){
+            resolve("Usuario é administrador");
+        }else{
+            reject("O usuario não é administrador!");
+        }
+
+    });
+//pega a promesa.then((resultado) => 
+    promesa.then((resultado) => {
+        console.log(resultado);
+    })
+
+}
 
 
 //executar functions
@@ -94,3 +114,4 @@ replaceEcma();
 pesquisar();
 pad();
 objectEntries();
+Promises();
