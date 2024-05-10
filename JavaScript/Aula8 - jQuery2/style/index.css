@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::placeholder {
+    text-align: center;
+    text-decoration: rgba(0, 0, 0, 0.151);
+    color: gray;
+}
+
+#teste{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 128, 0, 0.658);
+}
