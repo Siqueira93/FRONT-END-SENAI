@@ -12,7 +12,7 @@ $("#senha").on("keydown", function(){
     $("#resposta").text(caracteres);
 
     if(caracteres <= 8){
-        $("#verificaSenha").html(`<p class="text-success"> Numero máximo de caracteres: 8</p>`);
+        $("#verificaSenha").html(`<p class="text-sucess"> Numero máximo de caracteres: 8</p>`);
     } else {
         $("#verificaSenha").html(`<p class="text-danger"> Nº de caracteres excedido </p>`);
         $("#senha").attr("disabled","true");
