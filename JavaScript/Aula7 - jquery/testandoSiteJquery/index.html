@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menuPrincipal{
+            background-color: gray;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 2px 10px 10px 10px;
+            
+            & #logoP img{
+                height: 50px;
+                width: 50px;
+
+            }
+            & .menu {
+                display: flex;
+                gap: 30px;
+                list-style: none;
+                font-style: none;
+            }
+            
+            & li a{
+                font-size: larger;
+                color: black;
+                font-style: none;
+                text-decoration: none;
+
+            }
+
+            & #pesquisar {
+                border: 2px black solid;
+                padding: 10px;
+                width: 150px;
+
+            }
+        }
+
+        .title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & #info {
+                display: flex;
+                justify-content: center;
+                margin: 10px;
+                align-items: center;
+            }
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.7.1.min.js">
+    
+</head>
+<body>
+    <!-- TESTANDO  -->
+    <header>
+        <nav class="menuPrincipal">
+            <!-- logo -->
+            <div class="logo">
+                <p id="logoP" height="5px"></p>
+            </div>
+            <ul class="menu">
+                <li><a href="" id="home"></a></li>
+                <li><a href="" id="pag2"></a></li>
+            </ul>
+            <div id="buscar">
+                <input id="pesquisar" placeholder="pesquisar">
+            </div>
+        </nav>
+    </header>
+    
+     <main>
+        <h1 id="title"></h1>
+        <div id="lorem">
+            <p id="info"></p>
+            <p id="img"></p>
+            <p id="info2"></p>
+            <p id="img2"></p>
+            <p id="info3"></p>
+            <p id="img3"></p>
+
+        </div>
+     </main>
+
+     <footer></footer>
+
+     <script src="jquery-3.7.1.min.js"></script>
+     <script src="script.js"></script>
+</body>
+</html>
