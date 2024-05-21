@@ -1,1 +1,203 @@
-ATIVIDADES DO CLASSROMAtividade - Fast FoodVictor Santos Rohod•08:36Uma empresa de fast-food deseja que seja criado uma one page utilizando HTML, CSS,Boostrap,Js e Jquery caso necessário para que seja mostrado os seus produtos! O seu dever é fazer uma página que contenha:-O nome da empresa sendo McFoods-Ter as cores vermelho e preto como obrigação-Seja mostrado ao menos 3 hamburgues em uma seção de descontos do dia-Tenha uma seção explicando sobre a empresa em si-Uma outra seção abordando os franqueados-Ter pelomenos um modal com a opção de comprar-Um script de seu critério!-Deverá ter uma animação css em algum elemento da páginaCritérios: -Só poderá ser utilizado os itens utilizados em sala de aula (incluindo bibliotecas), quaisquer outros elementos serão desconsiderados da avaliação-A entrega deverá ser feita com pasta zipada ou via git hub________________________________________________________________https://judge.beecrowd.com/pt/tournaments/rank/8012senha: frontendétopObs: Quando ele falar que vai receber um valor, você deverá colocar "lines.shift()"exemplo//Receba um número para somar com outro númerovar numero1 = Number(lines.shift())var numero2 = Number(lines.shift())________________________________________________________________Atividade Avaliativa 4Victor Santos Rohod•14 de mai. (editado: 16 de mai.)18/2018 pontos de 20 possíveisData de entrega: 17 de mai., 12:00Um projeto chegou em suas mão para que seja desenvolvido um web site relacionado a cinema! Você deverá desenvolver 3 páginas, uma de home, onde serão mostrados além da marca CineSenaie  todos os filmes em cartaz disponiveis no momento.Uma página de cronograma de horários e a última, uma tela de pagamento pelo ingresso! -Precisa ter ao menos 6 filmes disponiveis-É necessário um banner para anunciar o CineSenai, montado de sua preferência-Ao usuário clicar no botão "Ver seção" de cada filme correspondente, deverá abrir uma  outra página ou um modal em outra janela do navegador oferendo as poltronas disponiveis e seus valores ( Obs: poderá ser utilizado a mesmapágina de mostragem de poltronas em todos os filmes )-Ao clicar na poltrona deverá sinalizar de alguma maneira que foi selecionada ( trocando de cor por exemplo).-Ao menos um script, além do script da poltrona, deverá ter de sua preferência!REQUISITOS:-Poderá ser utilizado quaisquer elementos utilizados pelo curso-Entrega zipada ou link do GitHub________________________________________________________________1) Fazer um script de tabuada sendo que o usuario possa escolher de 1 a 102) Implementar o botão do tema dark e tema light________________________________________________________________JavaScript Personagem de jogoVictor Santos Rohod•8 de mai.Faça um site, onde você pode ter um personagem ao seu critério ( Um pokémon ou um protagonista) com seus diversos atributos ( como vida, dano ou powerups) e no html não só possamos acrescentar mais estatísticas a ele como possamos estar acompanhando sua evolução ( ver visualmente o acréscimo acontecendo )________________________________________________________________EcmaScript aula 5Victor Santos Rohod•6 de mai.1) Fazer um input de pesquisa onde irá pesquisar se o nome de um jogo (em um array de pelomenos 3 elementos) existe, se existir, mande uma mensagem que ele foi encontrado, caso não, mande uma mensagem que não foi encontrado!2) Fazer um algoritmo com inputs onde possa implementar as funções de replace e replace all________________________________________________________________Speed's JavascriptVictor Santos Rohod•30 de abr.1)Crie um objeto chamado "carro" que tenha as seguintes propriedades:marca: stringmodelo: stringano: númerocor: stringvelocidadeMaxima: númerovelocidadeAtual: número (inicialmente 0)Emseguida, crie um método chamado "acelerar" que receba um número comoargumento e aumente a velocidade atual do carro por esse número.Certifique-se de que a velocidade atual não ultrapasse a velocidademáxima do carro.2)Faça um array de usuários, onde você possa acrescentar ao array novos usuários3)Coloque no html a mensagem "Script Funcionando", bem no meio da tela estilizado________________________________________________________________Javascript ArrayVictor Santos Rohod•26 de abr.-Faça um sistema de adicionar peças de computador de forma fixa (Deixando as opções já pre selecionadas) e que elas no decorrer do tempo possam serem adicionas a um array chamado carrinho________________________________________________________________Javascript RepetiçãoVictor Santos Rohod•24 de abr.Olá bom dia! Hoje falaremos sobre Repetições do javascript e como ela pode agregar bem nos nossos projetos! Segue o material e bons estudos!//for, whilehttps://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iterationhttps://www.treinaweb.com.br/blog/estruturas-condicionais-e-estruturas-de-repeticao-em-javascriptATIVIDADES1) Faça um sistema de login onde, exista um usuário com acesso "ADM" e senha "ADM", se o usuário errar a senha ou o acesso, repita para que ele possa tentar novamente, se acertar recepcione o usuário com "BEM VINDO!"2)Atualize a lojinha Brasileiras para o JavaScript, tendo como noção a capacidade de acrescentar valor, do qual o usuário possa colocar diversos produtos até que ele de alguma forma termine o pedido ( ex: adicionando botão de : finalizar )________________________________________________________________Javascript CondicionalVictor Santos Rohod•23 de abr.Olá bom dia! Hoje veremos sobre condicional dentro do escopo de jasvascript. Como previamente avisado, terei de me ausentar por questões médicas porém no segundo tempo jájá estarei denovo! Enquanto estiver off, deixarei um exercício e um material didático para ,melhor auxiliar vocês! Assim que retornar continuaremos nossos estudos e revisaremos o conteudo! MATERIAL DIDÁTICO://IF ELSEhttps://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else//OPERADOR CONDICIONAL TERNÁRIOhttps://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_operator//CASEhttps://awari.com.br/javascript-switch-case-tomando-decisoes-com-switch-case-em-javascript/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=JavaScript%20Switch%20Case:%20Tomando%20Decisões%20com%20switch%20case%20em%20JavaScript#:~:text=e%20sua%20utilização-,O%20JavaScript%20switch%20case%20é%20uma%20estrutura%20de%20controle%20condicional,uma%20determinada%20variável%20ou%20expressão.https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/switch ATIVIDADE1 - Crie uma aplicação capaz de identificar a faixa etária combase na idade informada pelo usuário. Considere os seguintes critérios:Se a idade informada for maior ou igual a 0 e menor que 15, exibir a mensagem “Criança”.Se a idade informada for maior ou igual a 15 e menor que 30, exibir a mensagem “Jovem”.Se a idade informada for maior ou igual a 30 e menor que 60, exibir a mensagem “Adulto”.Se a idade informada for maior ou igual a 60, exibir a mensagem “Idoso”.Fique à vontade para utilizar qualquer uma das funções aprendidas para exibição de dados para o usuário.________________________________________________________________Javascript 1 - IntroduçãoVictor Santos Rohod•22 de abr.faça dois scripts:1-calcule conta, faça uma aplicação js que pegue o número de clientes em uma mesa, o valor total da conta e após isso divida a conta de forma igual a todos os clientes2-Sucessor e antecessor, faça uma aplicação que colete um número digitado pelo usuário e logo em seguida mostre em ordem: o numero anterior a ele, o próprio número escolhido e o número sucessor a ele________________________________________________________________Atividade Avaliativa bootstrap Victor Santos Rohod•15 de abr.20/2020 pontos de 20 possíveisData de entrega: 17 de abr., 12:00Os alunos deverão desenvolver uma página com o tema cafeteria , cumprindo os seguintes requisitos obrigatórios:-Deverá ser utilizado apenas HTML, Css e Bootstrap ( A parte de JavaScript do Bootstrap e as funções desenvolvidas em sala estão inclusas no uso, apenas sendo essas as exceções ). A utilização de quaisquer outras tecnologias ou linguagens será desconsiderado da avaliação!-Ao menos deverá ter 3 opções disponiveis de café- Deverá ser responsivo!- Deverá ser desenvolvido 3 páginas, sendo elas o home ( Página principal), sobre nós e um catálogo de produtos dessa cafeteria!- Deverá ser instalado e utilizado o Bootstrap. -Os componentes obrigatórios serão um carrousel e um modal, dos quais deverão estar presente em ao menos em uma das páginas, sendo o contexto aplicado a escolha do aluno ( Sendo como banner, uma galeria, propaganda ou mensagens de navegações, popups etc ).- A entrega poderá ser no class com pasta zipada ( .zip ou .rar ) ou por link do seu repositório de Github do seu perfil!________________________________________________________________
+ATIVIDADES DO CLASSROM
+
+Atividade - Fast Food
+Victor Santos Rohod
+ï¿½
+08:36
+Uma empresa de fast-food deseja que seja criado uma one page utilizando HTML, CSS,Boostrap,Js e Jquery caso necessï¿½rio para que seja mostrado os seus produtos! O seu dever ï¿½ fazer uma pï¿½gina que contenha:
+-O nome da empresa sendo McFoods
+-Ter as cores vermelho e preto como obrigaï¿½ï¿½o
+-Seja mostrado ao menos 3 hamburgues em uma seï¿½ï¿½o de descontos do dia
+-Tenha uma seï¿½ï¿½o explicando sobre a empresa em si
+-Uma outra seï¿½ï¿½o abordando os franqueados
+-Ter pelomenos um modal com a opï¿½ï¿½o de comprar
+-Um script de seu critï¿½rio!
+-
+Deverï¿½ ter uma animaï¿½ï¿½o css em algum elemento da pï¿½gina
+
+Critï¿½rios: 
+-Sï¿½ poderï¿½ ser utilizado os itens utilizados em sala de aula (incluindo bibliotecas), quaisquer outros elementos serï¿½o desconsiderados da avaliaï¿½ï¿½o
+-A entrega deverï¿½ ser feita com pasta zipada ou via git hub
+
+________________________________________________________________
+
+
+https://judge.beecrowd.com/pt/tournaments/rank/8012
+
+senha: frontendï¿½top
+
+Obs: Quando ele falar que vai receber um valor, vocï¿½ deverï¿½ colocar "lines.shift()"
+exemplo
+//Receba um nï¿½mero para somar com outro nï¿½mero
+var numero1 = Number(lines.shift())
+var numero2 = Number(lines.shift())
+
+
+________________________________________________________________
+
+
+Atividade Avaliativa 4
+Victor Santos Rohod
+ï¿½
+14 de mai. (editado: 16 de mai.)
+18
+/20
+18 pontos de 20 possï¿½veis
+Data de entrega: 17 de mai., 12:00
+Um projeto chegou em suas mï¿½o para que seja desenvolvido um web site relacionado a cinema! Vocï¿½ deverï¿½ desenvolver 3
+ pï¿½ginas, uma de home, onde serï¿½o mostrados alï¿½m da marca CineSenaie  todos os filmes em cartaz disponiveis no momento.Uma pï¿½gina de cronograma de horï¿½rios e a ï¿½ltima, uma tela de pagamento pelo ingresso! 
+
+-Precisa ter ao menos 6 filmes disponiveis
+
+-ï¿½ necessï¿½rio um banner para anunciar o CineSenai, montado de sua preferï¿½ncia
+
+-Ao usuï¿½rio clicar no botï¿½o "Ver seï¿½ï¿½o" de cada filme correspondente, deverï¿½ abrir uma  outra pï¿½gina ou um modal em outra janela do navegador oferendo as poltronas disponiveis e seus valores ( Obs: poderï¿½ ser utilizado a mesma
+pï¿½gina de mostragem de poltronas em todos os filmes )
+
+-Ao clicar na poltrona deverï¿½ sinalizar de alguma maneira que foi selecionada ( trocando de cor por exemplo).
+
+-Ao menos um script, alï¿½m do script da poltrona, deverï¿½ ter de sua preferï¿½ncia!
+
+REQUISITOS:
+-Poderï¿½ ser utilizado quaisquer elementos utilizados pelo curso
+-Entrega zipada ou link do GitHub
+________________________________________________________________
+
+
+1) Fazer um script de tabuada sendo que o usuario possa escolher de 1 a 10
+2) Implementar o botï¿½o do tema dark e tema light
+________________________________________________________________
+
+JavaScript Personagem de jogo
+Victor Santos Rohod
+ï¿½
+8 de mai.
+Faï¿½a um site, onde vocï¿½ pode ter um personagem ao seu critï¿½rio ( Um pokï¿½mon ou um protagonista) com seus diversos atributos ( como vida, dano ou powerups) e no html nï¿½o sï¿½ possamos acrescentar mais estatï¿½sticas a ele como possamos estar acompanhando sua evoluï¿½ï¿½o ( ver visualmente o acrï¿½scimo acontecendo )
+
+________________________________________________________________
+
+EcmaScript aula 5
+Victor Santos Rohod
+ï¿½
+6 de mai.
+1) Fazer um input de pesquisa onde irï¿½ pesquisar se o nome de um jogo (em um array de pelomenos 3 elementos) existe, se existir, mande uma mensagem que ele foi encontrado, caso nï¿½o, mande uma mensagem que nï¿½o foi encontrado!
+2) Fazer um algoritmo com inputs onde possa implementar as funï¿½ï¿½es de replace e replace all
+________________________________________________________________
+
+
+Speed's Javascript
+Victor Santos Rohod
+ï¿½
+30 de abr.
+1)
+
+Crie um objeto chamado "carro" que tenha as seguintes propriedades:
+marca: string
+modelo: string
+ano: nï¿½mero
+cor: string
+velocidadeMaxima: nï¿½mero
+velocidadeAtual: nï¿½mero (inicialmente 0)
+Em
+seguida, crie um mï¿½todo chamado "acelerar" que receba um nï¿½mero como
+argumento e aumente a velocidade atual do carro por esse nï¿½mero.
+Certifique-se de que a velocidade atual nï¿½o ultrapasse a velocidade
+mï¿½xima do carro.
+
+2)Faï¿½a um array de usuï¿½rios, onde vocï¿½ possa acrescentar ao array novos usuï¿½rios
+
+3)Coloque no html a mensagem "Script Funcionando", bem no meio da tela estilizado
+________________________________________________________________
+
+Javascript Array
+Victor Santos Rohod
+ï¿½
+26 de abr.
+-Faï¿½a um sistema de adicionar peï¿½as de computador de forma fixa (Deixando as opï¿½ï¿½es jï¿½ pre selecionadas) e que elas no decorrer do tempo possam serem adicionas a um array chamado carrinho
+
+________________________________________________________________
+
+
+Javascript Repetiï¿½ï¿½o
+Victor Santos Rohod
+ï¿½
+24 de abr.
+Olï¿½ bom dia! Hoje falaremos sobre Repetiï¿½ï¿½es do javascript e como ela pode agregar bem nos nossos projetos! Segue o material e bons estudos!
+
+//for, while
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration
+
+https://www.treinaweb.com.br/blog/estruturas-condicionais-e-estruturas-de-repeticao-em-javascript
+
+ATIVIDADES
+1) Faï¿½a um sistema de login onde, exista um usuï¿½rio com acesso "ADM" e senha "ADM", se o usuï¿½rio errar a senha ou o acesso, repita para que ele possa tentar novamente, se acertar recepcione o usuï¿½rio com "BEM VINDO!"
+2)Atualize a lojinha Brasileiras para o JavaScript, tendo como noï¿½ï¿½o a capacidade de acrescentar valor, do qual o usuï¿½rio possa colocar diversos produtos atï¿½ que ele de alguma forma termine o pedido ( ex: adicionando botï¿½o de : finalizar )
+
+________________________________________________________________
+
+
+Javascript Condicional
+Victor Santos Rohod
+ï¿½
+23 de abr.
+Olï¿½ bom dia! Hoje veremos sobre condicional dentro do escopo de jasvascript. Como previamente avisado, terei de me ausentar por questï¿½es mï¿½dicas porï¿½m no segundo tempo jï¿½jï¿½ estarei denovo! Enquanto estiver off, deixarei um exercï¿½cio e um material didï¿½tico para ,melhor auxiliar vocï¿½s! Assim que retornar continuaremos nossos estudos e revisaremos o conteudo! 
+
+MATERIAL DIDï¿½TICO:
+//IF ELSE
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else
+
+//OPERADOR CONDICIONAL TERNï¿½RIO
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+
+//CASE
+https://awari.com.br/javascript-switch-case-tomando-decisoes-com-switch-case-em-javascript/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=JavaScript%20Switch%20Case:%20Tomando%20Decisï¿½es%20com%20switch%20case%20em%20JavaScript#:~:text=e%20sua%20utilizaï¿½ï¿½o-,O%20JavaScript%20switch%20case%20ï¿½%20uma%20estrutura%20de%20controle%20condicional,uma%20determinada%20variï¿½vel%20ou%20expressï¿½o.
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/switch 
+
+
+ATIVIDADE
+1 - Crie uma aplicaï¿½ï¿½o capaz de identificar a faixa etï¿½ria com
+base na idade informada pelo usuï¿½rio. Considere os seguintes critï¿½rios:
+Se a idade informada for maior ou igual a 0 e menor que 15, exibir a mensagem ï¿½Crianï¿½aï¿½.
+Se a idade informada for maior ou igual a 15 e menor que 30, exibir a mensagem ï¿½Jovemï¿½.
+Se a idade informada for maior ou igual a 30 e menor que 60, exibir a mensagem ï¿½Adultoï¿½.
+Se a idade informada for maior ou igual a 60, exibir a mensagem ï¿½Idosoï¿½.
+Fique ï¿½ vontade para utilizar qualquer uma das funï¿½ï¿½es aprendidas para exibiï¿½ï¿½o de dados para o usuï¿½rio.
+
+________________________________________________________________
+
+Javascript 1 - Introduï¿½ï¿½o
+Victor Santos Rohod
+ï¿½
+22 de abr.
+faï¿½a dois scripts:
+1-calcule conta, faï¿½a uma aplicaï¿½ï¿½o js que pegue o nï¿½mero de clientes em uma mesa, o valor total da conta e apï¿½s isso divida a conta de forma igual a todos os clientes
+2-Sucessor e antecessor, faï¿½a uma aplicaï¿½ï¿½o que colete um nï¿½mero digitado pelo usuï¿½rio e logo em seguida mostre em ordem: o numero anterior a ele, o prï¿½prio nï¿½mero escolhido e o nï¿½mero sucessor a ele
+________________________________________________________________
+
+Atividade Avaliativa bootstrap 
+Victor Santos Rohod
+ï¿½
+15 de abr.
+20
+/20
+20 pontos de 20 possï¿½veis
+Data de entrega: 17 de abr., 12:00
+Os alunos deverï¿½o desenvolver uma pï¿½gina com o tema cafeteria , cumprindo os seguintes requisitos obrigatï¿½rios:
+
+-Deverï¿½ ser utilizado apenas HTML, Css e Bootstrap ( A parte de JavaScript do Bootstrap e as funï¿½ï¿½es desenvolvidas em sala estï¿½o inclusas no uso, apenas sendo essas as exceï¿½ï¿½es ). A utilizaï¿½ï¿½o de quaisquer outras tecnologias ou linguagens serï¿½ desconsiderado da avaliaï¿½ï¿½o!
+
+-Ao menos deverï¿½ ter 3 opï¿½ï¿½es disponiveis de cafï¿½
+
+- Deverï¿½ ser responsivo!
+
+- Deverï¿½ ser desenvolvido 3 pï¿½ginas, sendo elas o home ( Pï¿½gina principal), sobre nï¿½s e um catï¿½logo de produtos dessa cafeteria!
+
+- Deverï¿½ ser instalado e utilizado o Bootstrap. 
+
+-Os componentes obrigatï¿½rios serï¿½o um carrousel e um modal, dos quais deverï¿½o estar presente em ao menos em uma das pï¿½ginas, sendo o contexto aplicado a escolha do aluno ( Sendo como banner, uma galeria, propaganda ou mensagens de navegaï¿½ï¿½es, popups etc ).
+
+- A entrega poderï¿½ ser no class com pasta zipada ( .zip ou .rar ) ou por link do seu repositï¿½rio de Github do seu perfil!
+
+________________________________________________________________
+
