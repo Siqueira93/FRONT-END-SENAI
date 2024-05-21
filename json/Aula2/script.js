@@ -6,7 +6,7 @@ if(username == ""){
     <button class="btn btn-primary">LOGIN</button>
     `
 }else{
-    document.querySelector("#username").innerHTML = username
+    document.querySelector("#username" ).innerHTML = username
     document.querySelector("#nome").value = username
 }
 
